@@ -1,0 +1,22 @@
+# YOLOv8 dataset configuration for Gloved vs Ungloved Hand Detection
+path: ./dataset  # Change to absolute path if needed, e.g., /home/user/dataset
+
+# Training set
+train: C:\Folder\New folder\Sharon's_files\Sharon-s-Code\Glove_Detection_Submission\Part_1_Glove_Detection\dataset\images\train
+train_labels: C:\Folder\New folder\Sharon's_files\Sharon-s-Code\Glove_Detection_Submission\Part_1_Glove_Detection\dataset\labels\train
+
+# Validation set (used for metrics during training)
+val: C:\Folder\New folder\Sharon's_files\Sharon-s-Code\Glove_Detection_Submission\Part_1_Glove_Detection\dataset\images\val
+val_labels: C:\Folder\New folder\Sharon's_files\Sharon-s-Code\Glove_Detection_Submission\Part_1_Glove_Detection\dataset\labels\val
+
+# Test set (for final evaluation)
+test: C:\Folder\New folder\Sharon's_files\Sharon-s-Code\Glove_Detection_Submission\Part_1_Glove_Detection\dataset\images\test
+test_labels: C:\Folder\New folder\Sharon's_files\Sharon-s-Code\Glove_Detection_Submission\Part_1_Glove_Detection\dataset\labels\test
+
+# Number of classes
+nc: 2
+
+# Class names (must match order in script's LABELS = ['bare_hand', 'gloved_hand'])
+names:
+  0: bare_hand
+  1: gloved_hand
